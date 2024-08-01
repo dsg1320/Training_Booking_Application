@@ -1,16 +1,17 @@
-# training_booking
+This app is designed with a user interface in Malayalam for users, while administrators and institutions access the app in English, ensuring accessibility and ease of use for all stakeholders
 
-A new Flutter project.
+The LMTC Training Booking App, developed using Flutter for the front end and Firebase for the backend and database management, offers a user-friendly interface for booking trainings tailored to the needs of trainees and institutions alike. Here are some key features of the app:
 
-## Getting Started
+1. Course Booking: Users can easily browse through existing courses and book their desired training sessions with just a few clicks. Additionally, they have the option to suggest new courses, which LMTC will consider based on popular demand.
 
-This project is a starting point for a Flutter application.
+2. OTP Verification: To ensure security and authenticity, booking requires a valid mobile number for OTP verification.
 
-A few resources to get you started if this is your first Flutter project:
+3. Admin and Institutional Login: The app offers separate logins for admins and LMTC institutions, allowing for efficient management of courses and bookings.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+4. Institutional Management: Institutions can view and manage the list of attendees registered for their trainings. They can also book slots for new attendees directly through the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+5. Course Management: Only admins have the authority to add or remove courses, ensuring proper management and organization of training offerings.
+
+6. Data Export: Admins have the ability to export details of registered attendees as PDF files for further analysis or record-keeping purposes.
+
+7. Communication: Institutions can add training dates at a later stage, and the app will automatically send corresponding emails or SMS notifications to the registered attendees.
